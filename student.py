@@ -4,12 +4,10 @@ def main():
     print(f"{name} from {house}")
 
 def get_name():#abstraction
-    name = input("Name: ")
-    return name
+    return input("Name: ")
 
 def get_house():
-    house = input("House: ")
-    return house
+    return input("House: ")
 
 if __name__ == "__main__":
     main()
